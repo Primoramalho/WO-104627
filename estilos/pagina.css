@@ -1,0 +1,157 @@
+/*CONFIGURAÇÃO GERAL DA PÁGINA*/
+    body{
+        display: grid;
+        grid-template-columns:auto;
+        place-items: center;
+        font-size: 4mm;
+        text-align: justify;
+    }
+    .q_page{
+        page-break-after:always;
+    }
+    .page{
+        height: 297mm;
+        width: 210mm;
+        margin: 0mm;
+        margin-bottom: 5mm;
+    }
+
+/*CONFIGURAÇÃO DO CABEÇALHO DA PÁGINA*/
+    .cabecalho{
+        background-color: #000;
+        color: #fff;
+        width:210mm;
+        height: 20mm;
+        display: grid;
+        grid-template-columns: 50mm 110mm 50mm;  
+    }
+    .header-img{
+        place-items: initial;
+        height: 20mm;
+        margin-left:0mm;
+    }
+    .header-img img{
+        width: auto;
+        height: 100%;
+        margin-left: 5mm;
+    }
+    .header-titulo{
+        text-align: center;
+        font-size: 6mm;
+        margin-top: 7mm;
+    }
+    .header-wo{
+        text-align:right;
+        margin-right: 7mm;
+        font-size: 4mm;
+        margin-top: 8mm;
+    }
+    .header-wo-2{
+        display: grid;
+        text-align:center;
+        margin-right: 0mm;
+        font-size: 4mm;
+    }
+    .table-wo{
+        border-collapse: none;
+        height: 10mm;
+        width: 32mm;
+        margin-top: 1.2mm;
+        margin-left: 15mm;
+    }
+    .table-wo th{
+        text-align: right;
+        border: 1px solid #e9e9e9;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.5mm;
+        padding-right: 2mm;
+        height: 2mm;
+        background-color: #e9e9e9;
+        color: #000;
+
+        
+    }
+    .table-wo td{
+        border: 1px solid #e9e9e9;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.5mm;
+        padding-left: 1mm;
+        height: 2mm;
+        background-color: #e9e9e9;
+        color: #000;
+
+    }
+/*CONFIGURAÇÃO DO CONTEÚDO DA PÁGINA*/
+    .conteudo{
+        background-color: #fff;
+        width:210mm;
+        height: 262mm;
+        font-family: arial;
+        text-align: justify;
+        font-size: 4mm;
+    }
+    .conteudo h2{
+        font-size: 5mm;
+        margin-top: 1mm;
+        margin-bottom: 1mm;
+        font-family:Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: -1px;
+
+    }
+    .conteudo h3{
+        font-size: 4mm;
+        margin-top: 1mm;
+        margin-bottom: 1mm;
+        font-family:Arial, Helvetica, sans-serif;
+        font-variant: small-caps;
+        letter-spacing: -1px;
+    }
+    .conteudo h4{
+        font-size: 4mm;
+        color: #5f5f5f;
+        margin-top: 1mm;
+        margin-bottom: 1mm;
+        font-family:Arial, Helvetica, sans-serif;
+        font-variant: small-caps;
+        letter-spacing: -1px;
+    }
+
+    .conteudo p::first-letter{
+        font-size: 4mm;
+        margin-top: 0mm;
+        margin-bottom: 2mm;
+        margin-left: 6.5mm;
+    }
+    .conteudo p{
+        font-size: 4mm;
+        margin-top: 0mm;
+        margin-bottom: 2mm;
+    }
+
+/*CONFIGURAÇÃO DO RODAPÉ DA PÁGINA*/
+    .rodapé{
+        background-color: #f9f9f9;
+        width:210mm;
+        height: 15mm;
+        display: grid;
+        grid-template-columns: 50mm 110mm 50mm;
+    }
+    .footer-c1{
+
+    }
+    .footer-c2{
+        text-align: center;
+        margin-top: 5mm;
+        font-size: 2.5mm;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .footer-c3{
+        text-align: right;
+        margin-right: 5mm;
+        margin-top: 5mm;
+        font-size: 3mm;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
